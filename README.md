@@ -1,22 +1,6 @@
 # Task-management-system
 An object-oriented Java application designed to manage employee tasks. Includes an automated task-duration estimation system, a project manager GUI, and object serialization for data persistence.
 
-src/main/java/
-
-├── DataModel/
-│   ├── Employee.java
-│   ├── Task.java          # sealed abstract class
-│   ├── SimpleTask.java
-│   └── ComplexTask.java   # composite pattern
-
-├── BusinessLogic/
-│   ├── TasksManagement.java
-│   └── Utility.java
-
-├── GUI/
-│   └── View.java
-└── Main.java
-
 ## Features
 
 - Add employees and tasks (simple or complex)
